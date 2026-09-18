@@ -7,7 +7,7 @@ public class TreeMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("The tree is moving!");
     }
 
     // Update is called once per frame
