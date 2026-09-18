@@ -14,16 +14,16 @@ public class TreeMovement : MonoBehaviour
     void Update()
     {
 		if(Input.GetKey(KeyCode.W)){
-            transform.position += Vector3.up*Time.deltaTime;
+            transform.position += Vector3.up*Time.deltaTime*10;
         }
         if(Input.GetKey(KeyCode.A)){
-            transform.position += Vector3.left*Time.deltaTime;
+            transform.position += Vector3.left*Time.deltaTime*10;
         }
         if(Input.GetKey(KeyCode.S)){
-            transform.position += Vector3.down*Time.deltaTime;
+            transform.position += Vector3.down*Time.deltaTime*10;
         }
         if(Input.GetKey(KeyCode.D)){
-            transform.position += Vector3.right*Time.deltaTime;
+            transform.position += Vector3.right*Time.deltaTime*10;
         }
     }
 }
